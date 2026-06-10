@@ -1,0 +1,153 @@
+ body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .navbar {
+        background-color: #8b5a3c;
+      }
+      .navbar-brand {
+        font-weight: 700;
+        font-size: 1.5rem;
+      }
+      .nav-link {
+        color: #fff !important;
+        margin-right: 1rem;
+      }
+      .nav-link:hover {
+        color: #ffd700 !important;
+      }
+     .btn-login{
+    display: inline-block;
+    background-color: #8b5a3c;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-login:hover{
+    background-color: #1900ff;
+    transform: translateY(-2px);
+}
+
+.btn-login:active{
+    transform: translateY(0);
+}
+      .hero {
+        background: linear-gradient(135deg, #8b5a3c 0%, #d4a574 100%);
+        color: #fff;
+        padding: 100px 0;
+        text-align: center;
+      }
+      .hero h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+      }
+      .hero p {
+        font-size: 1.2rem;
+        opacity: 0.95;
+      }
+      .section-title {
+        text-align: center;
+        margin-bottom: 3rem;
+        color: #000000;
+      }
+      .section-title h2 {
+        font-size: 2.5rem;
+        font-weight: 700;
+      }
+      .section-title p {
+        color: #666;
+        font-size: 1.1rem;
+      }
+      .book-card {
+        background: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        margin-bottom: 2rem;
+      }
+      .book-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      }
+      .book-image {
+        width: 100%;
+        height: 250px;
+        background-color: #f0f0f0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #999;
+        font-size: 4rem;
+      }
+      .book-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .book-info {
+        padding: 1.5rem;
+      }
+      .book-title {
+        font-weight: 700;
+        color: #8b5a3c;
+        margin-bottom: 0.5rem;
+      }
+      .book-author {
+        color: #666;
+        font-size: 0.95rem;
+        margin-bottom: 0.5rem;
+      }
+      .book-genre {
+        display: inline-block;
+        background-color: #d4a574;
+        color: #fff;
+        padding: 0.3rem 0.8rem;
+        border-radius: 15px;
+        font-size: 0.85rem;
+      }
+      .form-section {
+        background-color: #f8f9fa;
+        padding: 60px 0;
+      }
+      .form-card {
+        background: #fff;
+        border-radius: 10px;
+        padding: 2rem;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      }
+      .form-card h3 {
+        color: #8b5a3c;
+        margin-bottom: 1.5rem;
+      }
+      .form-control {
+        border-color: #ddd;
+        padding: 0.75rem;
+      }
+      .form-control:focus {
+        border-color: #8b5a3c;
+        box-shadow: 0 0 0 0.2rem rgba(139, 90, 60, 0.25);
+      }
+      .btn-submit {
+        background-color: #000000;
+        color: #fff;
+        padding: 0.75rem 2rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: 600;
+        transition: background-color 0.3s ease;
+      }
+      .btn-submit:hover {
+        background-color: #d4a574;
+      }
+      section {
+        padding: 60px 0;
+      }

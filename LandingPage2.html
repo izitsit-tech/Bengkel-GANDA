@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Belajar JavaScript - Perpustakaan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MRCgAyrKxE4nD+U0t7+vo3S/Iu6u9xA6fvZm11TF1c1MDV0NJLxDcELYQ0iW9Vfq" crossorigin="anonymous"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> 
+    <link rel="stylesheet" href="LandingPage.css">  
+    
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="dashboard.php"><i class="fas fa-book"></i> Perpustakaan</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="dashboard.php">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dashboard.php#daftar-buku">Daftar Buku</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dashboard.php.html#peminjaman">Peminjaman</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Book Detail Hero -->
+    <section class="book-detail-hero">
+      <div class="container text-center">
+        <h1>Detail Buku</h1>
+        <p>Pelajari lebih lanjut tentang buku yang ingin Anda pinjam</p>
+      </div>
+    </section>
+
+    <!-- Book Card -->
+    <section class="container">
+      <div class="book-card">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="book-image">
+              <img src="mikasa.png" alt="Attack On Titan" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="book-info">
+              <h2 class="book-title">Cerita Singkat Attack On Titan</h2>
+              <p class="book-author">Oleh: Hajime Isayama</p>
+              <span class="book-genre">Happy</span>
+
+              <div class="book-description">
+                  Attack on Titan atau AOT adalah anime yang menceritakan perjuangan umat manusia melawan para Titan, makhluk raksasa pemakan manusia yang mengancam kehidupan mereka. Cerita berfokus pada Eren Yeager, seorang anak yang bersumpah membasmi semua Titan setelah ibunya terbunuh dalam serangan Titan.
+                  Bersama teman-temannya, Mikasa Ackerman dan Armin Arlert, Eren bergabung dengan pasukan militer untuk melindungi umat manusia. Namun seiring berjalannya cerita, mereka menemukan banyak rahasia besar tentang Titan, dunia luar, dan kebenaran di balik perang yang terjadi.
+                      </div>
+
+              <div class="book-details">
+                <div class="detail-item">
+                  <span class="detail-label">Tahun Terbit:</span>
+                  <span>2013</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Jumlah Halaman:</span>
+                  <span>6.000–6.800 halaman.</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">ISBN:</span>
+                  <span>
+                    <ul>
+                      <li>Volume 1 ISBN: 978-1-61262-024-4</li>
+                      <li>Volume 34 ISBN: 978-1-64651-236-2</li>
+                    </ul>
+                  </span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Bahasa:</span>
+                  <span>Indonesia</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Status:</span>
+                  <span class="text-success">Tersedia</span>
+                </div>
+              </div>
+
+              <button class="btn-borrow" onclick="window.location.href='PerpustakaanSederhana.html#peminjaman'">Pinjam Buku Ini</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Related Books -->
+  <section id="daftar-buku">
+      <div class="container">
+        <div class="section-title">
+          <h2>Buku Terkait</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="book-card">
+              <div class="book-image">
+                <img src="PM.png" alt="Plastic Memories" class="img-fluid">          
+              </div>
+              <div class="book-info">
+                <p class="book-title">Plastic Memories</p>
+                <p class="book-author">Naotaka Hayashi</p>
+                <span class="book-genre">Romance</span>
+                <span class="book-genre">Sci-fi</span>
+                <span class="book-genre">Drama</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="book-card">
+              <div class="book-image">
+                <img src="Char.png" alt="Charlotte" class="img-fluid">
+              </div>
+              <div class="book-info">
+                <p class="book-title">Charlotte</p>
+                <p class="book-author">Jun Maeda</p>
+                <span class="book-genre">Supernatural</span>
+                <span class="book-genre">School</span>
+                <span class="book-genre">Romance</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="book-card">
+              <div class="book-image">
+                <img src="VE.png" alt="Violet Evergarden" class="img-fluid">
+              </div>
+              <div class="book-info">
+                <p class="book-title">Violet Evergarden</p>
+                <p class="book-author">Kyoto Animation</p>
+                <span class="book-genre">Fantasy</span>
+                <span class="book-genre">Slice Or Life</span>
+                <span class="book-genre">Romance</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+      <div class="container">
+        <p class="mb-0">&copy; 2026 Perpustakaan Digital. Semua hak cipta dilindungi.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-52abh6x9IpQm3/5qJyd/Pq10VsJed878u4pU02Q3XDx4EhKhFZ2yiInGCK8Ncb8F" crossorigin="anonymous"></script>
+  </body>
+</html>
