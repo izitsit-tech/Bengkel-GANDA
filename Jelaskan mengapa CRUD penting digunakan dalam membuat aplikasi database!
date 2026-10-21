@@ -1,0 +1,9 @@
+CRUD penting digunakan dalam membuat aplikasi database karena CRUD merupakan dasar dari pengelolaan data dalam sebuah aplikasi. CRUD adalah singkatan dari Create, Read, Update, dan Delete.
+
+Create (Membuat): Digunakan untuk menambahkan data baru ke dalam database, misalnya menambahkan data siswa.
+
+Read (Membaca): Digunakan untuk menampilkan atau melihat data yang tersimpan dalam database, misalnya melihat daftar siswa.
+
+Update (Memperbarui): Digunakan untuk mengubah data yang sudah ada, misalnya memperbarui alamat siswa.
+
+Delete (Menghapus): Digunakan untuk menghapus data yang tidak diperlukan lagi, misalnya menghapus data siswa yang salah atau sudah tidak digunakan.
